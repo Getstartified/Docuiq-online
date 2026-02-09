@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Features: React.FC = () => {
-    const [activeCategory, setActiveCategory] = useState('Pharma');
+
 
     const categories = ['Pharma', 'Biotech', 'CROs', 'CDMOs', 'Medical Devices'];
 
@@ -47,6 +47,23 @@ const Features: React.FC = () => {
     return (
         <section className="section-padding bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
             <div className="container-custom">
+                {/* Industry Points */}
+                <div className="text-center mb-8">
+                    <p className="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">
+                        Built for regulatory teams at
+                    </p>
+                    <div className="flex flex-wrap justify-center gap-3">
+                        {categories.map((category) => (
+                            <div
+                                key={category}
+                                className="bg-white text-gray-700 border border-gray-200 px-6 py-2 rounded-full font-medium shadow-sm select-none cursor-default"
+                            >
+                                {category}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
                 {/* Section Title */}
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -55,22 +72,6 @@ const Features: React.FC = () => {
                     <p className="text-lg text-gray-600">
                         Faster Submissions. Fewer Edits. Greater Confidence in every filing.
                     </p>
-                </div>
-
-                {/* Category Pills */}
-                <div className="flex flex-wrap justify-center gap-3 mb-12">
-                    {categories.map((category) => (
-                        <button
-                            key={category}
-                            onClick={() => setActiveCategory(category)}
-                            className={`px-6 py-2 rounded-full font-medium transition-all ${activeCategory === category
-                                ? 'bg-primary-600 text-white shadow-md'
-                                : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
-                                }`}
-                        >
-                            {category}
-                        </button>
-                    ))}
                 </div>
 
                 {/* Features Grid */}
