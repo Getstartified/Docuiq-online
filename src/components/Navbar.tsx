@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
                             <img
                                 src="/imgi_14-logo.png"
                                 alt="Docuiq"
-                                className={`h-8 w-auto transition-all duration-300 ${isScrolled ? '' : 'brightness-0 invert'
+                                className={`h-8 w-auto transition-all duration-300 ${isScrolled ? '' : ''
                                     }`}
                             />
                         </a>
