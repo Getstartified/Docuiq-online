@@ -46,7 +46,7 @@ const WhyChoose: React.FC = () => {
                 {/* Section Header */}
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-                        Why regulatory teams choose Ritivel
+                        Why regulatory teams choose Docuiq
                     </h2>
                     <p className="text-lg text-gray-600">
                         We built from the ground up for the unique demands of life sciences

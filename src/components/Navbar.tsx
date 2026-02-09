@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
                     <div className="flex-shrink-0">
                         <a href="#" className="flex items-center">
                             <img
-                                src="/imgi_14_ritivel-logo.png"
+                                src="/imgi_14-logo.png"
                                 alt="Docuiq"
                                 className={`h-8 w-auto transition-all duration-300 ${isScrolled ? '' : 'brightness-0 invert'
                                     }`}
@@ -56,8 +56,8 @@ const Navbar: React.FC = () => {
                         >
                             <button
                                 className={`flex items-center space-x-1 font-medium transition-colors ${isScrolled
-                                        ? 'text-gray-700 hover:text-primary-600'
-                                        : 'text-white hover:text-gray-200'
+                                    ? 'text-gray-700 hover:text-primary-600'
+                                    : 'text-white hover:text-gray-200'
                                     }`}
                             >
                                 <span>Products</span>
@@ -93,8 +93,8 @@ const Navbar: React.FC = () => {
                         <a
                             href="#security"
                             className={`font-medium transition-colors ${isScrolled
-                                    ? 'text-gray-700 hover:text-primary-600'
-                                    : 'text-white hover:text-gray-200'
+                                ? 'text-gray-700 hover:text-primary-600'
+                                : 'text-white hover:text-gray-200'
                                 }`}
                         >
                             Security
@@ -103,8 +103,8 @@ const Navbar: React.FC = () => {
                         <a
                             href="#blog"
                             className={`font-medium transition-colors ${isScrolled
-                                    ? 'text-gray-700 hover:text-primary-600'
-                                    : 'text-white hover:text-gray-200'
+                                ? 'text-gray-700 hover:text-primary-600'
+                                : 'text-white hover:text-gray-200'
                                 }`}
                         >
                             Blog
@@ -118,8 +118,8 @@ const Navbar: React.FC = () => {
                         >
                             <button
                                 className={`flex items-center space-x-1 font-medium transition-colors ${isScrolled
-                                        ? 'text-gray-700 hover:text-primary-600'
-                                        : 'text-white hover:text-gray-200'
+                                    ? 'text-gray-700 hover:text-primary-600'
+                                    : 'text-white hover:text-gray-200'
                                     }`}
                             >
                                 <span>Company</span>
@@ -158,8 +158,8 @@ const Navbar: React.FC = () => {
                         <a
                             href="#search"
                             className={`font-semibold transition-colors ${isScrolled
-                                    ? 'text-primary-600 hover:text-primary-700'
-                                    : 'text-white hover:text-gray-200'
+                                ? 'text-primary-600 hover:text-primary-700'
+                                : 'text-white hover:text-gray-200'
                                 }`}
                         >
                             Try Search
@@ -167,8 +167,8 @@ const Navbar: React.FC = () => {
                         <a
                             href="#demo"
                             className={`px-6 py-3 font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-lg ${isScrolled
-                                    ? 'bg-primary-600 hover:bg-primary-700 text-white'
-                                    : 'bg-white hover:bg-gray-100 text-primary-600'
+                                ? 'bg-primary-600 hover:bg-primary-700 text-white'
+                                : 'bg-white hover:bg-gray-100 text-primary-600'
                                 }`}
                         >
                             Book a Demo
@@ -180,8 +180,8 @@ const Navbar: React.FC = () => {
                         <button
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                             className={`focus:outline-none transition-colors ${isScrolled
-                                    ? 'text-gray-700 hover:text-primary-600'
-                                    : 'text-white hover:text-gray-200'
+                                ? 'text-gray-700 hover:text-primary-600'
+                                : 'text-white hover:text-gray-200'
                                 }`}
                         >
                             <svg

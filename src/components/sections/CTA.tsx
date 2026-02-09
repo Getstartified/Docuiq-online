@@ -15,7 +15,7 @@ const CTA: React.FC = () => {
 
                 {/* Supporting Text */}
                 <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
-                    See how Ritivel can help your team draft CSRs, automate CTD submissions,
+                    See how Docuiq can help your team draft CSRs, automate CTD submissions,
                     and access-with complete traceability.
                 </p>
 

@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
                 <img
                     src="/Lab%20image.jpg"
                     alt="Laboratory Background"
-                    className="absolute inset-0 w-full h-full object-cover opacity-50"
+                    className="absolute inset-0 w-full h-full object-cover opacity-90"
                 />
                 <div className="absolute inset-0 bg-gradient-hero" />
             </div>
@@ -29,13 +29,6 @@ const Hero: React.FC = () => {
                     in minutes, not weeks.
                 </h1>
 
-                {/* Subheading */}
-                <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl">
-                    For Pharma, Biotech, Medtech, and CROs
-                    <br />
-                    to get faster FDA approvals
-                </p>
-
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 mb-12">
                     <a href="#demo" className="btn-primary bg-white text-primary-600 hover:bg-gray-50">
@@ -54,19 +47,27 @@ const Hero: React.FC = () => {
                 </div>
 
                 {/* Built for logos */}
-                <div className="mt-12">
-                    <p className="text-white/70 text-sm mb-4">Built for regulatory teams at</p>
-                    <div className="flex flex-wrap items-center justify-center gap-8">
-                        <img
-                            src="/imgi_1_yc-logo.svg"
-                            alt="Y Combinator"
-                            className="h-8 brightness-0 invert opacity-70 hover:opacity-100 transition-opacity"
-                        />
-                        <img
-                            src="/imgi_2_microsoft-logo.svg"
-                            alt="Microsoft"
-                            className="h-8 brightness-0 invert opacity-70 hover:opacity-100 transition-opacity"
-                        />
+                <div className="mt-12 bg-white/90 backdrop-blur-sm rounded-2xl px-8 py-6 shadow-lg">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-12">
+                        {/* Y Combinator */}
+                        <div className="flex flex-col items-center gap-3">
+                            <p className="text-gray-700 text-sm font-medium">Backed by</p>
+                            <img
+                                src="/imgi_1_yc-logo.svg"
+                                alt="Y Combinator"
+                                className="h-8 transition-transform hover:scale-110"
+                            />
+                        </div>
+
+                        {/* Microsoft */}
+                        <div className="flex flex-col items-center gap-3">
+                            <p className="text-gray-700 text-sm font-medium">Built by experts from</p>
+                            <img
+                                src="/imgi_2_microsoft-logo.svg"
+                                alt="Microsoft"
+                                className="h-8 transition-transform hover:scale-110"
+                            />
+                        </div>
                     </div>
                 </div>
 

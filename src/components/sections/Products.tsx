@@ -15,167 +15,120 @@ const Products: React.FC = () => {
 
                 <div className="space-y-16">
                     {/* Clinical Study Reports */}
-                    <div className="bg-navy-900 rounded-2xl p-8 md:p-12">
-                        <div className="grid md:grid-cols-2 gap-8 items-center">
-                            <div>
-                                <h3 className="text-3xl font-bold text-white mb-4">
-                                    Clinical Study Reports
-                                </h3>
-                                <p className="text-gray-300 mb-6">
-                                    Draft complete CSRs in minutes with AI that understands regulatory requirements
-                                </p>
+                    <div className="bg-[#0f172a] rounded-3xl p-8 md:p-12 text-center overflow-hidden border border-gray-800 shadow-2xl">
+                        <div className="max-w-4xl mx-auto">
+                            <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 flex items-center justify-center gap-2">
+                                Clinical Study Reports <span className="text-gray-500 font-normal">→</span>
+                            </h3>
+                            <p className="text-gray-400 mb-8 max-w-2xl mx-auto text-lg">
+                                Protocol + SAP in, complete CSR out. Minutes, not weeks. Word-level traceability.
+                            </p>
 
-                                <div className="space-y-3">
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-primary-400 rounded-full"></div>
-                                        <span>Non-zero drafting from study data</span>
-                                    </div>
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-primary-400 rounded-full"></div>
-                                        <span>Auto TLF generation & referencing</span>
-                                    </div>
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-primary-400 rounded-full"></div>
-                                        <span>Data-centric sections with full traceability</span>
-                                    </div>
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-primary-400 rounded-full"></div>
-                                        <span>ICH E3 compliant formatting</span>
-                                    </div>
-                                </div>
+                            <div className="rounded-xl overflow-hidden shadow-[0_0_50px_-12px_rgba(255,255,255,0.25)] border border-gray-700 bg-gray-800 mb-12 relative group mx-auto max-w-3xl">
+                                <video
+                                    src="/Clinical Study Reports.mp4"
+                                    className="w-full h-auto object-cover"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                />
                             </div>
 
-                            <div className="bg-gray-800 rounded-xl p-6 h-80 flex items-center justify-center">
-                                <div className="text-center text-gray-400">
-                                    <svg className="w-24 h-24 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                    </svg>
-                                    <p className="text-sm">CSR Editor Interface</p>
-                                </div>
+                            <div className="flex flex-wrap justify-center gap-4">
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    Non-zero drafting
+                                </span>
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    Auto TLF generation
+                                </span>
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    Data-centric sections
+                                </span>
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    ICH E3 compliant
+                                </span>
                             </div>
                         </div>
                     </div>
 
                     {/* CTD Automation */}
-                    <div className="bg-gradient-teal rounded-2xl p-8 md:p-12">
-                        <div className="grid md:grid-cols-2 gap-8 items-center">
-                            <div>
-                                <h3 className="text-3xl font-bold text-white mb-4">
-                                    CTD Automation
-                                </h3>
-                                <p className="text-white/90 mb-6">
-                                    Automate CTD Module 2 & 5 compilation with intelligent document assembly
-                                </p>
+                    <div className="bg-[#0f172a] rounded-3xl p-8 md:p-12 text-center overflow-hidden border border-gray-800 shadow-2xl">
+                        <div className="max-w-4xl mx-auto">
+                            <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 flex items-center justify-center gap-2">
+                                CTD Automation <span className="text-gray-500 font-normal">→</span>
+                            </h3>
+                            <p className="text-gray-400 mb-8 max-w-2xl mx-auto text-lg">
+                                Automate CTD Module 2 & 5 compilation with intelligent document assembly
+                            </p>
 
-                                <div className="space-y-3">
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-white rounded-full"></div>
-                                        <span>Smart CTD structure navigation</span>
-                                    </div>
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-white rounded-full"></div>
-                                        <span>Auto-populate from source documents</span>
-                                    </div>
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-white rounded-full"></div>
-                                        <span>Regional compliance checking</span>
-                                    </div>
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-white rounded-full"></div>
-                                        <span>eCTD ready exports</span>
-                                    </div>
-                                </div>
+                            <div className="rounded-xl overflow-hidden shadow-[0_0_50px_-12px_rgba(255,255,255,0.25)] border border-gray-700 bg-gray-800 mb-12 relative group mx-auto max-w-3xl">
+                                <video
+                                    src="/CTD Automation.mp4"
+                                    className="w-full h-auto object-cover"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                />
                             </div>
 
-                            <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 h-80">
-                                <div className="bg-white rounded-lg p-4 space-y-2 h-full overflow-hidden">
-                                    <h4 className="font-semibold text-teal-900 mb-3">CTD Checklist</h4>
-                                    <div className="space-y-2">
-                                        <div className="flex items-center space-x-2 text-sm">
-                                            <input type="checkbox" className="rounded" checked readOnly />
-                                            <span className="text-gray-700">Module 2.5 - Clinical Overview</span>
-                                        </div>
-                                        <div className="flex items-center space-x-2 text-sm">
-                                            <input type="checkbox" className="rounded" checked readOnly />
-                                            <span className="text-gray-700">Module 2.7.1 - Summary of Biopharm</span>
-                                        </div>
-                                        <div className="flex items-center space-x-2 text-sm">
-                                            <input type="checkbox" className="rounded" readOnly />
-                                            <span className="text-gray-700">Module 2.7.3 - Clinical Efficacy</span>
-                                        </div>
-                                        <div className="flex items-center space-x-2 text-sm">
-                                            <input type="checkbox" className="rounded" readOnly />
-                                            <span className="text-gray-700">Module 2.7.4 - Clinical Safety</span>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="flex flex-wrap justify-center gap-4">
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    Smart structure navigation
+                                </span>
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    Auto-populate docs
+                                </span>
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    Regional compliance
+                                </span>
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    eCTD ready
+                                </span>
                             </div>
                         </div>
                     </div>
 
                     {/* Regulatory Search */}
-                    <div className="bg-gradient-purple rounded-2xl p-8 md:p-12">
-                        <div className="grid md:grid-cols-2 gap-8 items-center">
-                            <div>
-                                <h3 className="text-3xl font-bold text-white mb-4">
-                                    Regulatory Search
-                                </h3>
-                                <p className="text-white/90 mb-6">
-                                    Ask questions, get instant answers from FDA guidance and your internal documents
-                                </p>
+                    <div className="bg-[#0f172a] rounded-3xl p-8 md:p-12 text-center overflow-hidden border border-gray-800 shadow-2xl">
+                        <div className="max-w-4xl mx-auto">
+                            <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 flex items-center justify-center gap-2">
+                                Regulatory Search <span className="text-gray-500 font-normal">→</span>
+                            </h3>
+                            <p className="text-gray-400 mb-8 max-w-2xl mx-auto text-lg">
+                                Ask questions, get instant answers from FDA guidance and your internal documents
+                            </p>
 
-                                <div className="space-y-3">
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-white rounded-full"></div>
-                                        <span>Search across FDA & EMA databases</span>
+                            <div className="rounded-xl overflow-hidden shadow-[0_0_50px_-12px_rgba(255,255,255,0.25)] border border-gray-700 bg-gray-800 mb-12 h-96 relative group mx-auto max-w-3xl">
+                                <div className="bg-white/95 w-full h-full p-6 text-left">
+                                    <div className="flex items-center space-x-2 mb-4 pb-4 border-b">
+                                        <button className="px-3 py-1 bg-purple-600 text-white rounded-md text-sm">FDA Search</button>
+                                        <button className="px-3 py-1 bg-gray-200 text-gray-700 rounded-md text-sm">Enterprise</button>
                                     </div>
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-white rounded-full"></div>
-                                        <span>Upload your own regulatory docs</span>
-                                    </div>
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-white rounded-full"></div>
-                                        <span>Citation with exact page references</span>
-                                    </div>
-                                    <div className="flex items-center space-x-3 text-white">
-                                        <div className="w-2 h-2 bg-white rounded-full"></div>
-                                        <span>Export answers to Word/PDF</span>
+                                    <div className="relative">
+                                        <input type="text" placeholder="What are the requirements for..." className="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm bg-gray-50" readOnly />
+                                        <div className="mt-6 flex flex-wrap gap-2">
+                                            <div className="text-xs text-purple-700 bg-purple-100 px-3 py-2 rounded-md">"Phase 3 trial endpoints for oncology"</div>
+                                            <div className="text-xs text-purple-700 bg-purple-100 px-3 py-2 rounded-md">"Pediatric study requirements"</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 h-80">
-                                <div className="bg-white rounded-lg p-4 h-full flex flex-col">
-                                    <div className="flex items-center space-x-2 mb-4 pb-4 border-b">
-                                        <button className="px-3 py-1 bg-purple-600 text-white rounded-md text-sm">
-                                            FDA Search
-                                        </button>
-                                        <button className="px-3 py-1 bg-gray-200 text-gray-700 rounded-md text-sm">
-                                            Enterprise
-                                        </button>
-                                    </div>
-
-                                    <div className="relative flex-1">
-                                        <input
-                                            type="text"
-                                            placeholder="What are the requirements for..."
-                                            className="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm"
-                                            readOnly
-                                        />
-
-                                        <div className="mt-4 space-y-2">
-                                            <p className="text-xs text-gray-500">Example queries:</p>
-                                            <div className="space-y-1">
-                                                <div className="text-xs text-purple-600 bg-purple-50 px-3 py-2 rounded-md">
-                                                    "Phase 3 trial endpoints for oncology"
-                                                </div>
-                                                <div className="text-xs text-purple-600 bg-purple-50 px-3 py-2 rounded-md">
-                                                    "Pediatric study requirements"
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="flex flex-wrap justify-center gap-4">
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    FDA & EMA databases
+                                </span>
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    Custom uploads
+                                </span>
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    Exact citations
+                                </span>
+                                <span className="px-6 py-2 rounded-full bg-slate-800/80 border border-slate-600 text-gray-200 text-sm font-medium hover:bg-slate-700 transition-colors">
+                                    Export to Word/PDF
+                                </span>
                             </div>
                         </div>
                     </div>

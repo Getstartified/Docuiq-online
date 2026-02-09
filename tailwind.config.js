@@ -59,7 +59,7 @@ export default {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-hero': 'linear-gradient(135deg, rgba(79, 70, 229, 0.7) 0%, rgba(124, 58, 237, 0.7) 100%)',
+        'gradient-hero': 'linear-gradient(135deg, rgba(79, 70, 229, 0.25) 0%, rgba(124, 58, 237, 0.25) 100%)',
         'gradient-purple': 'linear-gradient(135deg, #6366f1 0%, #9333ea 100%)',
         'gradient-teal': 'linear-gradient(135deg, #0d9488 0%, #14b8a6 100%)',
         'gradient-text': 'linear-gradient(135deg, #6366f1 0%, #9333ea 100%)',

@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
                     <div>
                         <div className="mb-4">
                             <img
-                                src="/imgi_14_ritivel-logo.png"
+                                src="/imgi_14-logo.png"
                                 alt="Docuiq"
                                 className="h-8 w-auto brightness-0 invert"
                             />
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
                 {/* Copyright */}
                 <div className="border-t border-gray-700 mt-8 pt-8 text-center">
                     <p className="text-gray-400 text-sm">
-                        © 2024 Docuiq. All rights reserved.
+                        © 2025 Docuiq.
                     </p>
                 </div>
             </div>
