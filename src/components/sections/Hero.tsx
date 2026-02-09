@@ -50,14 +50,14 @@ const Hero: React.FC = () => {
                 <div className="mt-12 bg-white/90 backdrop-blur-sm rounded-2xl px-8 py-6 shadow-lg">
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-12">
                         {/* Y Combinator */}
-                        <div className="flex flex-col items-center gap-3">
+                        {/* <div className="flex flex-col items-center gap-3">
                             <p className="text-gray-700 text-sm font-medium">Backed by</p>
                             <img
                                 src="/imgi_1_yc-logo.svg"
                                 alt="Y Combinator"
                                 className="h-8 transition-transform hover:scale-110"
                             />
-                        </div>
+                        </div> */}
 
                         {/* Microsoft */}
                         <div className="flex flex-col items-center gap-3">
